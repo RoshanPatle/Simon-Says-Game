@@ -1,0 +1,90 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2rem;
+}
+
+.red{
+    background-color: rgb(237, 121, 121);
+}
+
+.green{
+    background-color: rgb(145, 226, 145);
+}
+
+.yellow{
+    background-color: rgb(246, 246, 137);
+}
+
+.purple{
+    background-color: rgb(228, 142, 228);
+}
+
+.flash{
+    background-color: white;
+}
+
+
+
+@media(max-width:600px){
+    .btn{
+        height: 130px;
+        width: 130px;
+    }
+    .btn-container{
+        margin-left: 1rem;
+    }
+
+    h2{
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
